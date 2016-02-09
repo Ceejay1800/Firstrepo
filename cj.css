@@ -1,0 +1,10 @@
+body{
+	margin: 0 auto;
+	text-align: center;
+}
+h1{
+	color: red;
+}
+ul { 
+	list-style-type: none;
+}
