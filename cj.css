@@ -10,13 +10,15 @@ ul {
 	list-style-type: none;
 }
 .header{ 
-	height: 100px;
+	height: 250px;
 
 
 }
 .list{
+	height: 250px;
 
 }
 .bottom{
+	height: 250px;
 
 }
