@@ -9,11 +9,60 @@ h1{
 ul { 
 	list-style-type: none;
 }
+
+*{
+	margin: 0;
+	padding:0;
+	border:0;
+}
+
+.page-wrapper{
+	border: 2px solid white;
+	height: 100%;
+}
+
+.first, .second, .third {
+	display: inline-block;
+	width: 30%;
+	float: left;
+	height: 100%;
+}
+
+.first{
+	 background-color: #0D244D;
+	 width: 33%;
+	 margin: 0;
+	 float: left;
+	 font-size: 25px;
+	 color: #FFF;	 
+}
+
+.second{
+	background-color: #01853A;
+	width: 33%;
+	margin: 0;
+	float: left;
+	font-size: 25px;
+	color: #FFF;
+}
+
+.third{
+	background-color: #D3091F;
+	width: 33%;
+	margin: 0;
+	float: left;
+	font-size: 25px;
+	color: #FFF;
+}
+
+img{
+width: 100%;
+}
+
 .header{ 
 	height: 250px;
-
-
 }
+
 .list{
 	height: 250px;
 
@@ -22,3 +71,37 @@ ul {
 	height: 250px;
 
 }
+
+li{
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Hind' , sans serif
+
+}
+div#divFeedityWidget {
+	width: 100%;
+	padding: 5px;
+	background-color: transparent;
+	color: #FFFFFF;
+	text-align: center;
+	height: 100%;
+}
+
+
+div#divFeedityWidget a {
+	color: #FFF;
+}
+
+
+div#divFeedityWidget ul {
+	margin: 0 auto;
+	width: 75%;
+}
+
+/* Media Queries
+=============================*/
+
+@media (max-width: 600px) {
+  .first,.second,.third{ 
+    width: 100%;
+  }
